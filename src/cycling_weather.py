@@ -33,7 +33,7 @@ def split_date_continues():
     return pd.concat([split_data, df.iloc[:,1:]], axis = 1)
 
 def cycling_weather():
-    pass
+    df = split_date_continues()
 
 def main():
     cycling_weather()
