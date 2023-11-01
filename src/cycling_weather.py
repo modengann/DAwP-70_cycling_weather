@@ -21,7 +21,7 @@ def split_date(df):
 
 #Do not modify
 def load_data():
-    df = pd.read_csv("src\Helsingin_pyorailijamaarat.csv", sep = ";")
+    df = pd.read_csv("src/Helsingin_pyorailijamaarat.csv", sep = ";")
     df.dropna(how = "all", axis = 1, inplace = True)
     df.dropna(how = "all", inplace = True)
     return df
